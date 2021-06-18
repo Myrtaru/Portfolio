@@ -22,7 +22,11 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-
+img{
+  margin: 4.1em 0;
+  border-radius:5px;
+  width: 400px;
+}
 
 .hero {
   background:var(--secondary-color);
@@ -56,7 +60,7 @@ line-height: 27px;
 padding: 15px 30px;
 }
 .description {
-  padding: 120px 60px;
+  padding: 3em 1em;
 }
 @media (max-width: 900px) {
   h1{
@@ -67,7 +71,7 @@ padding: 15px 30px;
     font-size: 44px;
   }
   .hero {
-  padding: 80px 20px;
+  padding: 3em 1em;
   }
   .description{
   padding: 0;
