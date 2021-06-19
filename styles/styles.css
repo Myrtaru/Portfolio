@@ -1,6 +1,6 @@
 :root {
   --branding-color:#192a3d;
-  --secondary-color:#f9f7fe;
+  --secondary-color:#efecde;
   --heading-font-family:'Rancho', cursive;
   --default-font-family:'Poppins', sans-serif;
 }
@@ -16,7 +16,9 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
-
+h2 {
+  font-size: 64px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
