@@ -1,6 +1,7 @@
 :root {
   --branding-color:#192a3d;
   --secondary-color:#efecde;
+  --tertiary-color:#b5b6b7;
   --heading-font-family:'Rancho', cursive;
   --default-font-family:'Poppins', sans-serif;
 }
@@ -22,14 +23,43 @@ h2 {
 p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 40px;
 }
 img{
   margin: 4.1em 0;
   border-radius:5px;
   width: 400px;
 }
-
+footer{
+  margin:60px 0;
+  }
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 10px 120px;
+  border-radius: 5px;
+  }
+footer .contact-box p {
+  margin: 0;
+  }
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 15px ;
+  color: var(--branding-color);
+  background-color:var(--secondary-color);
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color:var(--branding-color);
+  background: var(--tertiary-color);
+}
+.email-link {
+  color: var(--branding-color);
+}
+.email-link:hover {
+    color: var(--tertiary-color);
+}
 .hero {
   background:var(--secondary-color);
   text-align: center;
