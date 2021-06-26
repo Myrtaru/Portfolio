@@ -14,10 +14,35 @@
 </head>
 <body>
 <div class="container">
-
-
-
-
+    <nav id="hamnav">
+    <ul>
+         <span class="logoname"><a href="/index.html"  title="Homepage">
+      <img class="logoMR" src="img/logoMR.png" alt="Company logo"></a>
+     Myrta Rüegger
+         </span>
+  <label for="hamburger" id="hamlabel">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+    <script>
+document.getElementById("hamburger").onclick = function(){
+  document.getElementById("hamlabel").innerHTML = this.checked ? "X" : "&#9776;" ;
+};
+</script>
+  <span id="hamitems">
+        <li>
+          <a class="active" href="/index.html" title="Homepage">Home</a>
+         </li>
+        <li>
+          <a href="/about.html" title="About me">About</a>
+        </li> 
+        <li>
+          <a href="/work.html" title="My Work">Work</a>
+        </li> 
+        <li>
+          <a href="/contact.html" title="Contact me">Contact</a> 
+  </li>
+</span>
+    </ul>
+  </nav>
 <div class="hero">
 <p>Welcome, I am</p>
 <h1>Myrta Rüegger</h1>
