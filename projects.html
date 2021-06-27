@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is a overview of Myrta Rüeggers projects. Take a look at what she has been working on.">
+  <title>Projects</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Poppins:wght@300;400;500;700&family=Rancho&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/styles.css"/>
+<script src="https://kit.fontawesome.com/8a44233198.js" crossorigin="anonymous"></script></head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<body>
+  <div class="container">
+<nav id="hamnav">
+  <ul>
+  <span class="logoname"><a href="/index.html"  title="Homepage">
+    <img class="logoMR" src="img/logoMR.png" title="MR logo" alt="MR Logo"></a>
+     Myrta Rüegger
+  </span>
+  <label for="hamburger" id="hamlabel">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+  <script>
+  document.getElementById("hamburger").onclick = function(){
+  document.getElementById("hamlabel").innerHTML = this.checked ? "X" : "&#9776;" ;
+  };
+  </script>
+  <span id="hamitems">
+    <li>
+     <a href="/contact.html" title="Contact me">Contact</a> 
+    </li>
+    <li>
+     <a href="/skills.html" title="Skills">Skills</a>
+    </li> 
+    <li>
+     <a class="active" href="/projects.html" title="Coding projects">Projects</a>
+    </li>
+    <li> 
+     <a href="/about.html" title="About me">About me</a>
+    </li> 
+    <li>
+     <a href="/index.html" title="Homepage"><i class="fas fa-home"></i></a>
+    </li>
+  </span>
+  </ul>
+</nav>
+<div class="content-container container">
+<div class="content">
+<h3 class="text-center">Featured Projects</h3>
+<div class="row">
+<div class="col d-none d-lg-block">
+<img src="img/React-Weather-App.png" class="img-fluid" title="React Weather App"alt="React weather app preview"/>
+</div>
+   <div class="col">
+     <div class="description">
+<h2>React Weather App</h2>
+<a href="https://app.netlify.com/sites/naughty-ramanujan-a4574f.netlify.app" class="btn btn-branding-outline">Launch App</a>
+<p class="mt-2 text-muted">
+Built with React, one of the most popular web frameworks. It uses advanced HTML, CSS, JavaScript and API. This app is an improved version of the Vanilla JS weather app.
+</p>
+</div>
+</div>
+</div>
+ <div class="row">
+   <div class="col">
+     <div class="description">
+       <h2>Dictionary App</h2></li>
+  <a href="https://app.netlify.com/sites/wonderful-goodall-35fb7a.netlify.app" class="btn btn-branding-outline">Launch App</a>
+<p class="mt-2 text-muted">
+Also built with React. A project to find the meaning of words by using advanced HTML, CSS Javascript and multiple API's. 
+</p>
+</div>
+</div>
+<div class="d-block">
+<img src="img/dictionary.png" class="img-fluid" title="Dictionary App"alt="Dictionary app preview"/>
+</div>
+</div>
+<div class="row">
+    <div class="col d-none d-lg-block">
+<img src="img/JS-Weather-App.png" class="img-fluid" title="Vanilla Weather App" alt="Vanilla weather app preview"/>
+</div>
+   <div class="col">
+     <div class="description">
+<h2>Vanilla JS Weather App</h2>
+<a href="https://app.netlify.com/sites/eager-roentgen-5d40f8.netlify.app" class="btn btn-branding-outline english-btn">English App</a>
+<a href="https://app.netlify.com/sites/tender-shirley-0efb59.netlify.app" class="btn btn-branding-outline">German App</a>
+<p class="mt-2 text-muted">
+This app was made using HTML, CSS, JavaScript and Bootstrap. Also it's integrating live API to get forecast and data for any location. 
+</p>
+</div>
+</div>
+ <div class="row">
+   <div class="col">
+     <div class="description">
+<h2>Landing Page</h2>
+<a href="https://keen-hermann-7d9fe1.netlify.app/" class="btn btn-branding-outline">Launch Page</a> 
+<p class="mt-2 text-muted">
+This is a simple page about artistic painting, one of my interests. It's using basic HTML, CSS and JavaScript.
+</p>
+</div>
+</div>
+<div class="col d-none d-lg-block">
+<img src="img/Landing-Page.png" class="img-fluid" title="Landing-Page"alt="Landing Page"/>
+</div>
+</div>
+<footer>
+  <div class="contact-box d-flex justify-content-between mt-4 p-2">
+    <div>
+    <h3>
+      Work Inquiry
+    </h3>
+    <p>Let's work together</p>
+    </div>
+  <div>
+    <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact me</a>
+    </div>
+    </div>
+  <div class="d-flex justify-content-center mb-5">
+</div>
+<div class="social-links d-flex justify-content-center">
+  <a href="mailto:myrtaru@gmail.com" title="Email">
+  <i class="fas fa-envelope"></i></a>
+  <a href="https://www.linkedin.com/in/myrta-r-245529138/" target="_blank" title="LinkedIn Profile">  
+    <i class="fab fa-linkedin"></i></a>
+      <a href="https:github.com/myrtaru" target="_blank" title="Github Profile"> 
+    <i class="fab fa-github-square"></i></a>
+</div>
+</div>
+<p class="text-center fs-6 mt-3">Coded by Myrta Rüegger and open sourced on <a href="https://github.com/Myrtaru/Portofolio" class="email-link" target="_blank">Github </a>
+</p>
+</footer>
+</div>
+<script>src="src/script.js"</script>
+</body>
+</html>

@@ -9,23 +9,22 @@ body {
   font-family: var(--default-font-family);
    color:var(--branding-color);
 }
-
 h1 {
   font-family:var(--heading-font-family);
   font-size: 96px;
   line-height: 1.5;
+  opacity: 60%;
 }
 h2 {
   font-family:var(--heading-font-family);
-  font-size: 64px;
+  font-size: 36px;
   }
 h3,h4,h5,h6 {
   font-family: var(--default-font-family);
- 
 }
 p {
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
 }
 nav li{
   display: inline;
@@ -38,6 +37,7 @@ nav ul{
   margin-bottom: 2.5em;
 }
 img{
+  margin-top: 2em;
   border-radius: 5px  ;
   width: 350px;
 }
@@ -84,19 +84,18 @@ footer .social-links a:hover {
   float: right;
 }
 .btn-branding {
-  margin-top: 10px;
+  margin-top: 2px;
   background: var(--tertiary-color);
   border: 2px solid var(--branding-color);
   border-radius: 5px;
   color:var(--branding-color);
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding:15px 20px;
 }
 .btn-branding:hover {
   background: var(--secondary-color);
   color: var(--branding-color);
-  border-radius: 5px;
 }
 .btn-branding-outline {
   background: var(--secondary-color);
@@ -105,17 +104,18 @@ footer .social-links a:hover {
   border-radius: 5px;
   font-size: 18px;
   line-height: 27px;
-  padding: 15px 30px;
-  margin-top: 1.5em;
+  padding: 15px 10px;
 }
 .btn-branding-outline:hover {
   background: white;
   color: var(--branding-color);
   border: 2px solid var(--branding-color);
-  border-radius: 5px;
+}
+.english-btn{
+  width:140px
 }
 .description {
-  padding: 3em 1em;
+  padding: 2em 1em;
 }
 .logoMR{
   width: 40px;
@@ -141,7 +141,7 @@ footer .social-links a:hover {
   text-align: center;
   transition: all 100ms ease-in-out;
 }
-#hamitems a:hover { 
+#hamitems a:hover,.active  { 
   color: var(--branding-color);
   font-weight: bold;
 }
@@ -153,11 +153,7 @@ footer .social-links a:hover {
     line-height: 1.5;
   }
   h2{
-    font-size: 44px;
-  }
-  footer
-  .hero {
-    padding: 3em 1em;
+    font-size: 36px;
   }
   nav li{
     float: unset;
@@ -166,6 +162,10 @@ footer .social-links a:hover {
   }
   nav ul{
     padding: 0;
+  }
+  img {
+    margin: 0 auto;
+    width: 220px;
   }
  .logoname{
     font-size: 18px;
