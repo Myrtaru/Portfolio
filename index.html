@@ -16,17 +16,12 @@
 <div class="container">
 <nav id="hamnav">
   <ul>
-  <span class="logoname"><a href="/index.html"  title="Homepage">
+  <span class="logoMRname"><a href="/index.html"  title="Homepage">
     <img class="logoMR" src="img/logoMR.png" title="MR logo" alt="MR Logo"></a>
      Myrta Rüegger
   </span>
   <label for="hamburger" id="hamlabel">&#9776;</label>
   <input type="checkbox" id="hamburger"/>
-  <script>
-  document.getElementById("hamburger").onclick = function(){
-  document.getElementById("hamlabel").innerHTML = this.checked ? "X" : "&#9776;" ;
-  };
-  </script>
   <span id="hamitems">
     <li>
      <a href="/contact.html" title="Contact me">Contact</a> 
@@ -55,7 +50,7 @@
 </div>
 </div>
 <footer>
-  <div class="contact-box d-flex justify-content-between mt-4 p-2">
+  <div class="contact-box justify-content-evenly mt-4 p-2">
     <div>
     <h3>
       Work Inquiry
@@ -63,19 +58,16 @@
     <p>Let's work together</p>
     </div>
   <div>
-    <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact</a>
+    <a href="/contact.html" class="btn btn-branding" title="Contact">Contact</a>
     </div>
     </div>
-  <div class="d-flex justify-content-center mb-5">
-</div>
-<div class="social-links d-flex justify-content-center">
+<div class="social-links d-flex justify-content-center mt-5">
   <a href="mailto:myrtaru@gmail.com" title="Email">
   <i class="fas fa-envelope"></i></a>
   <a href="https://www.linkedin.com/in/myrta-r-245529138/" target="_blank" title="LinkedIn Profile">  
     <i class="fab fa-linkedin"></i></a>
       <a href="https:github.com/myrtaru" target="_blank" title="Github Profile"> 
     <i class="fab fa-github-square"></i></a>
-</div>
 </div>
 <p class="text-center fs-6 mt-3">Coded by Myrta Rüegger and open sourced on <a href="https://github.com/Myrtaru/Portofolio" class="email-link" target="_blank">Github </a>
 </p>

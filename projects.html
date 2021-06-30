@@ -17,20 +17,16 @@
   <div class="container">
 <nav id="hamnav">
   <ul>
-  <span class="logoname"><a href="/index.html"  title="Homepage">
+  <span class="logoMRname"><a href="/index.html"  title="Homepage">
     <img class="logoMR" src="img/logoMR.png" title="MR logo" alt="MR Logo"></a>
      Myrta Rüegger
   </span>
   <label for="hamburger" id="hamlabel">&#9776;</label>
   <input type="checkbox" id="hamburger"/>
-  <script>
-  document.getElementById("hamburger").onclick = function(){
-  document.getElementById("hamlabel").innerHTML = this.checked ? "X" : "&#9776;" ;
-  };
   </script>
   <span id="hamitems">
     <li>
-     <a href="/contact.html" title="Contact me">Contact</a> 
+     <a href="/contact.html" title="Contact">Contact</a> 
     </li>
     <li>
      <a href="/skills.html" title="Skills">Skills</a>
@@ -49,10 +45,10 @@
 </nav>
 <div class="content-container container">
 <div class="content">
-<h3 class="text-center">Featured Projects</h3>
+<h3>Featured Projects</h3>
 <div class="row">
-<div class="col d-none d-lg-block">
-<img src="img/React-Weather-App.png" class="img-fluid" title="React Weather App"alt="React weather app preview"/>
+<div class="col">
+<img src="img/React-Weather-App.png"  title="React Weather App"alt="React weather app preview"/>
 </div>
    <div class="col">
      <div class="description">
@@ -64,25 +60,27 @@ Built with React, one of the most popular web frameworks. It uses advanced HTML,
 </div>
 </div>
 </div>
+<hr/>
  <div class="row">
    <div class="col">
      <div class="description">
        <h2>Dictionary App</h2></li>
-  <a href="https://app.netlify.com/sites/wonderful-goodall-35fb7a.netlify.app" class="btn btn-branding-outline">Launch App</a>
+<a href="https://app.netlify.com/sites/wonderful-goodall-35fb7a.netlify.app" class="btn btn-branding-outline">Launch App</a>
 <p class="mt-2 text-muted">
 Also built with React. A project to find the meaning of words by using advanced HTML, CSS Javascript and multiple API's. 
 </p>
 </div>
 </div>
-<div class="d-block">
-<img src="img/dictionary.png" class="img-fluid" title="Dictionary App"alt="Dictionary app preview"/>
+<div class="col">
+<img src="img/dictionary.png"  title="Dictionary App"alt="Dictionary app preview"/>
 </div>
 </div>
+<hr/>
 <div class="row">
-    <div class="col d-none d-lg-block">
-<img src="img/JS-Weather-App.png" class="img-fluid" title="Vanilla Weather App" alt="Vanilla weather app preview"/>
+    <div class="col">
+<img src="img/JS-Weather-App.png" title="Vanilla Weather App" alt="Vanilla weather app preview"/>
 </div>
-   <div class="col">
+   <div class="col JSapp">
      <div class="description">
 <h2>Vanilla JS Weather App</h2>
 <a href="https://app.netlify.com/sites/eager-roentgen-5d40f8.netlify.app" class="btn btn-branding-outline english-btn">English App</a>
@@ -92,22 +90,23 @@ This app was made using HTML, CSS, JavaScript and Bootstrap. Also it's integrati
 </p>
 </div>
 </div>
+<hr/>
  <div class="row">
    <div class="col">
      <div class="description">
 <h2>Landing Page</h2>
 <a href="https://keen-hermann-7d9fe1.netlify.app/" class="btn btn-branding-outline">Launch Page</a> 
 <p class="mt-2 text-muted">
-This is a simple page about artistic painting, one of my interests. It's using basic HTML, CSS and JavaScript.
+This is a static webpage about artistic painting, one of my interests. It's using basic HTML, CSS and JavaScript.
 </p>
 </div>
 </div>
-<div class="col d-none d-lg-block">
-<img src="img/Landing-Page.png" class="img-fluid" title="Landing-Page"alt="Landing Page"/>
+<div class="col">
+<img src="img/Landing-Page.png"  title="Landing-Page"alt="Landing Page"/>
 </div>
 </div>
 <footer>
-  <div class="contact-box d-flex justify-content-between mt-4 p-2">
+  <div class="contact-box justify-content-evenly mt-4 p-2">
     <div>
     <h3>
       Work Inquiry
@@ -115,19 +114,16 @@ This is a simple page about artistic painting, one of my interests. It's using b
     <p>Let's work together</p>
     </div>
   <div>
-    <a href="/contact.html" class="btn btn-branding" title="Contact me">Contact me</a>
+    <a href="/contact.html" class="btn btn-branding" title="Contact">Contact</a>
     </div>
     </div>
-  <div class="d-flex justify-content-center mb-5">
-</div>
-<div class="social-links d-flex justify-content-center">
+<div class="social-links d-flex justify-content-center mt-5">
   <a href="mailto:myrtaru@gmail.com" title="Email">
   <i class="fas fa-envelope"></i></a>
   <a href="https://www.linkedin.com/in/myrta-r-245529138/" target="_blank" title="LinkedIn Profile">  
     <i class="fab fa-linkedin"></i></a>
       <a href="https:github.com/myrtaru" target="_blank" title="Github Profile"> 
     <i class="fab fa-github-square"></i></a>
-</div>
 </div>
 <p class="text-center fs-6 mt-3">Coded by Myrta Rüegger and open sourced on <a href="https://github.com/Myrtaru/Portofolio" class="email-link" target="_blank">Github </a>
 </p>
