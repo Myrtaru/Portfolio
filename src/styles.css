@@ -95,6 +95,7 @@ footer .social-links a:hover {
   float: right;
 }
 .btn-branding {
+  min-width: 160px;
   margin-top: 7px;
   background: var(--tertiary-color);
   border: 2px solid var(--branding-color);
@@ -109,6 +110,7 @@ footer .social-links a:hover {
   color: var(--branding-color);
 }
 .btn-branding-outline {
+  min-width: 160px;
   background: var(--secondary-color);
   color: var(--branding-color);
   border: 2px solid var(--branding-color);
@@ -213,6 +215,13 @@ footer .social-links a:hover {
   flex-direction: column;
   text-align: center;
   }
+  footer .social-links{
+  margin: 10px;
+  }
+  .footer-links{
+    flex-direction: column;
+    text-align: center;
+  }
   .language-link{
   padding-left: 0;
   padding-top: 30px;
@@ -222,6 +231,7 @@ footer .social-links a:hover {
   }
   .btn-branding-outline {
   margin: 16px;
+  min-width: 160px;
   }
   .logoMRname{
     font-size: 18px;
