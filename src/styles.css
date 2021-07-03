@@ -7,7 +7,7 @@
 }
 body {
   font-family: var(--default-font-family);
-   color:var(--branding-color);
+  color:var(--branding-color);
 }
 h1 {
   font-family:var(--heading-font-family);
@@ -29,7 +29,6 @@ p {
 nav li{
   display: inline;
   list-style: none;
-  float: right;
   padding: 1em 0 0 2em;
 }
 nav ul{
@@ -39,8 +38,8 @@ nav ul{
 img{
   margin-top: 1em;
   border-radius: 5px;
-  width: 350px;
-  padding:10px;
+  width: 300px;
+  padding:5px;
   border:2px solid var(--tertiary-color);
   box-shadow:rgba(25, 42, 61, 0.1) 0px 4px 12px;
 }
@@ -65,13 +64,18 @@ footer .social-links a:hover {
   color:var(--branding-color);
   background: var(--tertiary-color);
 }
+.language-link,
 .email-link {
   color: var(--branding-color);
   opacity: 70%;
   text-decoration: none;
 }
+.language-link:hover,
 .email-link:hover {
   color: var(--tertiary-color);
+}
+.language-link{
+  padding-left: 50px;
 }
 .hero {
   text-align: center;
@@ -86,6 +90,7 @@ footer .social-links a:hover {
   margin: 30px 0;
 }
 .portrait{
+  padding: 10px;
   border-radius: 40% 20%;
   float: right;
 }
@@ -118,7 +123,7 @@ footer .social-links a:hover {
   border: 2px solid var(--branding-color);
 }
 .english-btn{
-  width:140px
+  width:149px
 }
 .description {
   padding: 2em 1em;
@@ -126,7 +131,7 @@ footer .social-links a:hover {
 .logos{
   border: none;
   box-shadow: none;
-  width: 70px;
+  max-width: 50px;
 }
 .logoname{
   font-size: 12px;
@@ -143,24 +148,32 @@ footer .social-links a:hover {
   font-size: 24px;
 }
 .skills{
-  padding:10px;
+  margin:0 6em;
+  padding:5px;
   border-radius: 5px;
   border:2px solid var(--tertiary-color);
   box-shadow:rgba(25, 42, 61, 0.1) 0px 4px 12px;
 }
-.certificate{
+.certificate-right:hover,
+.certificate-left:hover {
+  cursor:pointer;
+  transform: scale(2.5);
+  transition: all 1s ease-in-out 1.5s;
   padding: 0;
 }
-.certificate:hover {
-  transform: scale(1.7);
-  transition: all 1s ease-in-out .5s;
+.certificate-left:hover {
+  transform-origin:left;
+}
+.certificate-right:hover {
+  transform-origin:right;
 }
 #hamnav {
   width: 100%;
   background: var(--secondary-color);
 }
 #hamitems { 
-  padding: 10px 0; 
+  float: right;
+  padding: 15px 0 0 0; 
 }
 #hamitems a {
   margin:30 0;
@@ -179,14 +192,13 @@ footer .social-links a:hover {
 
 @media (max-width: 900px) {
   h1{
-    font-size: 44px;
+    font-size: 56px;
     line-height: 1.5;
   }
   h2{
     font-size: 36px;
   }
   nav li{
-    float: unset;
     padding: 0;
     line-height: 3;
   }
@@ -201,12 +213,15 @@ footer .social-links a:hover {
   flex-direction: column;
   text-align: center;
   }
-  .btn-branding-outline {
-  display: block;
-  margin: 16px;
+  .language-link{
+  padding-left: 0;
+  padding-top: 30px;
   }
-  .logos {
-    max-width: 50px;
+  .portrait{
+    width: 220px;
+  }
+  .btn-branding-outline {
+  margin: 16px;
   }
   .logoMRname{
     font-size: 18px;
@@ -214,11 +229,13 @@ footer .social-links a:hover {
     justify-content: center;
     line-height: 3.5;
   }
-  .portrait{
-    width: 220px;
+  .skills{
+    margin: 0 auto;
   }
-  .certificate:hover {
-    transform: none;
+   .certificate-right:hover,
+   .certificate-left:hover {
+    transform:none;
+    transform-origin:unset;
   }
   #hamitems a {
     box-sizing: border-box;
@@ -235,6 +252,7 @@ footer .social-links a:hover {
     font-size: 1.5em;;
     border-radius: 5px;
   }
-  #hamitems { display: none; }
+  #hamitems {display: none; 
+    float: unset;}
   #hamnav input:checked ~ #hamitems { display: block; }
 }
