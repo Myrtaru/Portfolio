@@ -76,7 +76,7 @@ footer .social-links a:hover {
 .email-link:hover {
   color: var(--tertiary-color);
 }
-.language-link{
+.EN-link{
   padding-left: 50px;
 }
 .hero {
@@ -168,6 +168,9 @@ footer .social-links a:hover {
 .certificate-right:hover {
   transform-origin:right;
 }
+.paintings{
+  width: 100%;
+}
 #hamnav {
   width: 100%;
   background: var(--secondary-color);
@@ -184,10 +187,13 @@ footer .social-links a:hover {
   text-decoration: none;
   text-align: center;
   transition: all .1s ease-in-out;
+  
 }
 #hamitems a:hover,.active  { 
-  color: var(--branding-color);
   font-weight: bold;
+}
+#hamitems a:hover { 
+  opacity: 70%;
 }
 #hamnav label, #hamburger { display: none; }
 
