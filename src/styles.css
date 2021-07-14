@@ -206,7 +206,7 @@ footer .social-links a:hover {
   h2{
     font-size: 36px;
   }
-  h4{
+  h4,h3,p{
     text-align: center;
   }
   nav li{
