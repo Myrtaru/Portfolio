@@ -20,11 +20,9 @@ h2 {
   font-size: 36px;
   }
 h3,h4,h5,h6 {
-  hyphens: auto;
   font-family: var(--default-font-family);
 }
 p {
-  hyphens: auto;
   font-weight: normal;
   font-size: 18px;
 }
@@ -148,6 +146,13 @@ footer .social-links a:hover {
 .logoMRname{
   font-family: var(--heading-font-family);
   font-size: 24px;
+}
+.hyphenate {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+-webkit-hyphens: auto;
+   -moz-hyphens: auto;
+   hyphens: auto;
 }
 .skills{
   margin:0 6em;
