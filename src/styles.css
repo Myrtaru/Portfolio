@@ -174,9 +174,6 @@ footer .social-links a:hover {
 .certificate-right:hover {
   transform-origin:right;
 }
-.paintings{
-  width: 100%;
-}
 #hamnav {
   width: 100%;
   background: var(--secondary-color);
